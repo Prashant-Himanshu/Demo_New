@@ -10,6 +10,7 @@
             UseClass useClass = new UseClass();
             useClass.UseMe();
             Console.WriteLine("I am working fine");
+            Console.WriteLine("Show I am able to be seen when you are running git fetch");
         }
     }
 }
