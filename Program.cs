@@ -7,22 +7,69 @@ namespace Demo_New
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("This is first version before pushing on git");
-            Console.WriteLine("First Change in Main Method");
+            using System;
 
-            Application2.Class1 obj2 = new Application2.Class1();
-            obj2.Display();
-
-
-            for (int i = 0; i < 10; i++)
+namespace FinalConsoleApplication
+    {
+        class Program
+        {
+            static void Main(string[] args)
             {
-                Console.WriteLine("This new added line for newbranch Line number 19");
-               
+                Console.WriteLine("Application Started");
+                Console.WriteLine("Welcome to Git Practice");
 
+                string name = "Prashant";
+                int age = 30;
+                string city = "Pune";
+
+                Console.WriteLine($"Name: {name}");
+                Console.WriteLine($"Age: {age}");
+                Console.WriteLine($"City: {city}");
+
+                int number1 = 10;
+                int number2 = 20;
+
+                int sum = number1 + number2;
+                int difference = number2 - number1;
+                int multiplication = number1 * number2;
+
+                Console.WriteLine($"Sum: {sum}");
+                Console.WriteLine($"Difference: {difference}");
+                Console.WriteLine($"Multiplication: {multiplication}");
+
+                if (age >= 18)
+                {
+                    Console.WriteLine("User is an adult");
+                }
+                else
+                {
+                    Console.WriteLine("User is a minor");
+                }
+
+                Console.WriteLine("Main branch change 1");
+                Console.WriteLine("Main branch change 2");
+                Console.WriteLine("Main branch change 3");
+                Console.WriteLine("Main branch change 4");
+                Console.WriteLine("Main branch change 5");
+
+                Console.WriteLine("Calculating result...");
+
+                int result = sum + multiplication;
+
+                Console.WriteLine($"Final Result: {result}");
+
+                Console.WriteLine("Main branch completed");
+                Console.WriteLine("Application Finished");
+
+                /*----------------------------------------*/
+                UseClass c1 = new UseClass();
+                c1.UseMe();
             }
-
-
-
         }
+    }
+
+
+
+}
     }
 }
