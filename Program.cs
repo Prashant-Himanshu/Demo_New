@@ -10,8 +10,16 @@ namespace Demo_New
             Console.WriteLine("This is first version before pushing on git");
             Console.WriteLine("First Change in Main Method");
 
-            Application1.Class1 c = new Application1.Class1();
-            c.Display();
+            Application2.Class1 obj2 = new Application2.Class1();
+            obj2.Display();
+
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("This new added line for newbranch Line number 19");
+               
+
+            }
 
 
 
