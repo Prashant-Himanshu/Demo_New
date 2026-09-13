@@ -9,7 +9,8 @@ namespace Demo_New
         public void UseMe()
         {
             Console.WriteLine("I am here to be use please use me ");
-            Console.WriteLine("Kyu Use nhi kroge mujhe");
+            Console.WriteLine("Today i am sick m not able to fun today");            Console.WriteLine("Kyu Use nhi kroge mujhe");
+            Console.WriteLine("Hello i am new Line here in theis use class");
         }
     }
 }
